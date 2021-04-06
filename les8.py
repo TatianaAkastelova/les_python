@@ -3,5 +3,16 @@ school ['5a'] = 11
 print(school)
 school ['5c'] = 15
 del school ['6b']
+print(sum(school.values()))
+
+
+dct = {1: 'a', 2: 'c', 3: 'b'}
+def rev_key(dct):
+    dct_new = dict()
+    for i, v in dct.items():
+        for w in v:
+            dct_new[w] = dct_new.get(w, []) + [i]
+    return dct_new
+print(rev_key(dct))
 
 
