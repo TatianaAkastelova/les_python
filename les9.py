@@ -36,8 +36,8 @@ print(testSet, 'length is', len(testSet))
 
 
 languages = {"Python", "C Programming", "Java", "JavaScript"}
-largest_string = max(languages);
-smallest_string = min(languages);
+largest_string = max(languages)
+smallest_string = min(languages)
 print("The largest string is:", largest_string)
 print("The smallest string is:", smallest_string)
 
